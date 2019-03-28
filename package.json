@@ -1,0 +1,20 @@
+{
+  "name": "fizzbuzz-project",
+  "version": "1.0.0",
+  "description": "Testing Fizzbuzz with Moacha Chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha --require babel-core/register"
+  },
+  "author": "Kunal Ganglani",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "nyc": "^13.3.0"
+  }
+}
